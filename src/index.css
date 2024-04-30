@@ -1,0 +1,32 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.video-container {
+  /* This will act as the max width and height for your video */
+  max-width: 1080px;
+  max-height: 720px;
+  /* Center the video container if it's inside a larger container or viewport */
+  margin: 20px 0;
+}
+
+.video-container video {
+  /* This makes the video responsive */
+  width: 100%;
+  height: auto;
+  /* This will ensure the video doesn't exceed its original width/height */
+  max-width: 1080px;
+  max-height: 720px;
+}
